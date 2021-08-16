@@ -1,0 +1,14 @@
+/home/terasic/workspace/tvm/build/CMakeFiles/install/strip.dir
+/home/terasic/workspace/tvm/build/CMakeFiles/list_install_components.dir
+/home/terasic/workspace/tvm/build/CMakeFiles/edit_cache.dir
+/home/terasic/workspace/tvm/build/CMakeFiles/install.dir
+/home/terasic/workspace/tvm/build/CMakeFiles/runtime.dir
+/home/terasic/workspace/tvm/build/CMakeFiles/install/local.dir
+/home/terasic/workspace/tvm/build/CMakeFiles/cpptest.dir
+/home/terasic/workspace/tvm/build/CMakeFiles/tvm_objs.dir
+/home/terasic/workspace/tvm/build/CMakeFiles/rebuild_cache.dir
+/home/terasic/workspace/tvm/build/CMakeFiles/tvm_runtime.dir
+/home/terasic/workspace/tvm/build/CMakeFiles/vta.dir
+/home/terasic/workspace/tvm/build/CMakeFiles/tvm.dir
+/home/terasic/workspace/tvm/build/CMakeFiles/tvm_runtime_objs.dir
+/home/terasic/workspace/tvm/build/CMakeFiles/project_libbacktrace.dir

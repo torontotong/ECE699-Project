@@ -1,0 +1,1782 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>XilinxAXIMaster - vta.interface.axi.XilinxAXIMaster</title>
+          <meta name="description" content="XilinxAXIMaster - vta.interface.axi.XilinxAXIMaster" />
+          <meta name="keywords" content="XilinxAXIMaster vta.interface.axi.XilinxAXIMaster" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../index.html';
+            var hash = 'vta.interface.axi.XilinxAXIMaster';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="type">
+      <div id="definition">
+        <img alt="Class" src="../../../lib/class_big.png" />
+        <p id="owner"><a href="../../package.html" class="extype" name="vta">vta</a>.<a href="../package.html" class="extype" name="vta.interface">interface</a>.<a href="package.html" class="extype" name="vta.interface.axi">axi</a></p>
+        <h1>XilinxAXIMaster</h1><h3><span class="morelinks"><div>Related Doc:
+            <a href="package.html" class="extype" name="vta.interface.axi">package axi</a>
+          </div></span></h3><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <span class="name">XilinxAXIMaster</span><span class="result"> extends <a href="AXIBase.html" class="extype" name="vta.interface.axi.AXIBase">AXIBase</a></span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><a href="AXIBase.html" class="extype" name="vta.interface.axi.AXIBase">AXIBase</a>, <a href="../../util/genericbundle/GenericParameterizedBundle.html" class="extype" name="vta.util.genericbundle.GenericParameterizedBundle">GenericParameterizedBundle</a>[<a href="AXIParams.html" class="extype" name="vta.interface.axi.AXIParams">AXIParams</a>], <span class="extype" name="chisel3.core.Bundle">Bundle</span>, <span class="extype" name="chisel3.core.Record">Record</span>, <span class="extype" name="chisel3.core.Aggregate">Aggregate</span>, <span class="extype" name="chisel3.core.Data">Data</span>, <span class="extype" name="chisel3.internal.NamedComponent">NamedComponent</span>, <span class="extype" name="chisel3.internal.HasId">HasId</span>, <span class="extype" name="chisel3.internal.InstanceId">InstanceId</span>, <span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+        </div></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        <div id="order">
+              <span class="filtertype">Ordering</span>
+              <ol>
+                
+                <li class="alpha in"><span>Alphabetic</span></li>
+                <li class="inherit out"><span>By Inheritance</span></li>
+              </ol>
+            </div>
+        <div id="ancestors">
+                <span class="filtertype">Inherited<br />
+                </span>
+                <ol id="linearization">
+                  <li class="in" name="vta.interface.axi.XilinxAXIMaster"><span>XilinxAXIMaster</span></li><li class="in" name="vta.interface.axi.AXIBase"><span>AXIBase</span></li><li class="in" name="vta.util.genericbundle.GenericParameterizedBundle"><span>GenericParameterizedBundle</span></li><li class="in" name="chisel3.core.Bundle"><span>Bundle</span></li><li class="in" name="chisel3.core.Record"><span>Record</span></li><li class="in" name="chisel3.core.Aggregate"><span>Aggregate</span></li><li class="in" name="chisel3.core.Data"><span>Data</span></li><li class="in" name="chisel3.internal.NamedComponent"><span>NamedComponent</span></li><li class="in" name="chisel3.internal.HasId"><span>HasId</span></li><li class="in" name="chisel3.internal.InstanceId"><span>InstanceId</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                </ol>
+              </div><div id="ancestors">
+            <span class="filtertype"></span>
+            <ol>
+              <li class="hideall out"><span>Hide All</span></li>
+              <li class="showall in"><span>Show All</span></li>
+            </ol>
+          </div>
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        <div id="constructors" class="members">
+              <h3>Instance Constructors</h3>
+              <ol><li name="vta.interface.axi.XilinxAXIMaster#&lt;init&gt;" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="&lt;init&gt;(params:vta.interface.axi.AXIParams):vta.interface.axi.XilinxAXIMaster"></a>
+      <a id="&lt;init&gt;:XilinxAXIMaster"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">new</span>
+      </span>
+      <span class="symbol">
+        <span class="name">XilinxAXIMaster</span><span class="params">(<span name="params">params: <a href="AXIParams.html" class="extype" name="vta.interface.axi.AXIParams">AXIParams</a></span>)</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@&lt;init&gt;(params:vta.interface.axi.AXIParams):vta.interface.axi.XilinxAXIMaster" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="scala.AnyRef#!=" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="!=(x$1:Any):Boolean"></a>
+      <a id="!=(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $bang$eq" class="name">!=</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@!=(x$1:Any):Boolean" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef###" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="##():Int"></a>
+      <a id="##():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $hash$hash" class="name">##</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@##():Int" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="chisel3.core.Data#:=" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id=":=(that:chisel3.core.Data)(implicitsourceInfo:chisel3.internal.sourceinfo.SourceInfo,implicitconnectionCompileOptions:chisel3.core.CompileOptions):Unit"></a>
+      <a id=":=(Data)(SourceInfo,CompileOptions):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $colon$eq" class="name">:=</span><span class="params">(<span name="that">that: <span class="extype" name="chisel3.core.Data">Data</span></span>)</span><span class="params">(<span class="implicit">implicit </span><span name="sourceInfo">sourceInfo: <span class="extype" name="chisel3.internal.sourceinfo.SourceInfo">SourceInfo</span></span>, <span name="connectionCompileOptions">connectionCompileOptions: <span class="extype" name="chisel3.core.CompileOptions">CompileOptions</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@:=(that:chisel3.core.Data)(implicitsourceInfo:chisel3.internal.sourceinfo.SourceInfo,implicitconnectionCompileOptions:chisel3.core.CompileOptions):Unit" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Data</dd></dl></div>
+    </li><li name="chisel3.core.Data#&lt;&gt;" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="&lt;&gt;(that:chisel3.core.Data)(implicitsourceInfo:chisel3.internal.sourceinfo.SourceInfo,implicitconnectionCompileOptions:chisel3.core.CompileOptions):Unit"></a>
+      <a id="&lt;&gt;(Data)(SourceInfo,CompileOptions):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $less$greater" class="name">&lt;&gt;</span><span class="params">(<span name="that">that: <span class="extype" name="chisel3.core.Data">Data</span></span>)</span><span class="params">(<span class="implicit">implicit </span><span name="sourceInfo">sourceInfo: <span class="extype" name="chisel3.internal.sourceinfo.SourceInfo">SourceInfo</span></span>, <span name="connectionCompileOptions">connectionCompileOptions: <span class="extype" name="chisel3.core.CompileOptions">CompileOptions</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@&lt;&gt;(that:chisel3.core.Data)(implicitsourceInfo:chisel3.internal.sourceinfo.SourceInfo,implicitconnectionCompileOptions:chisel3.core.CompileOptions):Unit" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Data</dd></dl></div>
+    </li><li name="scala.AnyRef#==" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="==(x$1:Any):Boolean"></a>
+      <a id="==(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $eq$eq" class="name">==</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@==(x$1:Any):Boolean" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="vta.interface.axi.XilinxAXIMaster#ARADDR" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ARADDR:chisel3.core.UInt"></a>
+      <a id="ARADDR:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ARADDR</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@ARADDR:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#ARBURST" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ARBURST:chisel3.core.UInt"></a>
+      <a id="ARBURST:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ARBURST</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@ARBURST:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#ARCACHE" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ARCACHE:chisel3.core.UInt"></a>
+      <a id="ARCACHE:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ARCACHE</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@ARCACHE:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#ARID" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ARID:chisel3.core.UInt"></a>
+      <a id="ARID:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ARID</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@ARID:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#ARLEN" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ARLEN:chisel3.core.UInt"></a>
+      <a id="ARLEN:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ARLEN</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@ARLEN:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#ARLOCK" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ARLOCK:chisel3.core.UInt"></a>
+      <a id="ARLOCK:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ARLOCK</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@ARLOCK:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#ARPROT" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ARPROT:chisel3.core.UInt"></a>
+      <a id="ARPROT:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ARPROT</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@ARPROT:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#ARQOS" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ARQOS:chisel3.core.UInt"></a>
+      <a id="ARQOS:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ARQOS</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@ARQOS:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#ARREADY" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ARREADY:chisel3.core.Bool"></a>
+      <a id="ARREADY:Bool"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ARREADY</span><span class="result">: <span class="extype" name="chisel3.core.Bool">Bool</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@ARREADY:chisel3.core.Bool" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#ARREGION" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ARREGION:chisel3.core.UInt"></a>
+      <a id="ARREGION:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ARREGION</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@ARREGION:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#ARSIZE" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ARSIZE:chisel3.core.UInt"></a>
+      <a id="ARSIZE:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ARSIZE</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@ARSIZE:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#ARUSER" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ARUSER:chisel3.core.UInt"></a>
+      <a id="ARUSER:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ARUSER</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@ARUSER:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#ARVALID" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ARVALID:chisel3.core.Bool"></a>
+      <a id="ARVALID:Bool"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ARVALID</span><span class="result">: <span class="extype" name="chisel3.core.Bool">Bool</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@ARVALID:chisel3.core.Bool" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#AWADDR" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AWADDR:chisel3.core.UInt"></a>
+      <a id="AWADDR:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">AWADDR</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@AWADDR:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#AWBURST" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AWBURST:chisel3.core.UInt"></a>
+      <a id="AWBURST:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">AWBURST</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@AWBURST:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#AWCACHE" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AWCACHE:chisel3.core.UInt"></a>
+      <a id="AWCACHE:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">AWCACHE</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@AWCACHE:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#AWID" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AWID:chisel3.core.UInt"></a>
+      <a id="AWID:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">AWID</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@AWID:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#AWLEN" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AWLEN:chisel3.core.UInt"></a>
+      <a id="AWLEN:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">AWLEN</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@AWLEN:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#AWLOCK" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AWLOCK:chisel3.core.UInt"></a>
+      <a id="AWLOCK:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">AWLOCK</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@AWLOCK:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#AWPROT" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AWPROT:chisel3.core.UInt"></a>
+      <a id="AWPROT:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">AWPROT</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@AWPROT:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#AWQOS" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AWQOS:chisel3.core.UInt"></a>
+      <a id="AWQOS:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">AWQOS</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@AWQOS:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#AWREADY" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AWREADY:chisel3.core.Bool"></a>
+      <a id="AWREADY:Bool"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">AWREADY</span><span class="result">: <span class="extype" name="chisel3.core.Bool">Bool</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@AWREADY:chisel3.core.Bool" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#AWREGION" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AWREGION:chisel3.core.UInt"></a>
+      <a id="AWREGION:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">AWREGION</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@AWREGION:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#AWSIZE" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AWSIZE:chisel3.core.UInt"></a>
+      <a id="AWSIZE:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">AWSIZE</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@AWSIZE:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#AWUSER" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AWUSER:chisel3.core.UInt"></a>
+      <a id="AWUSER:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">AWUSER</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@AWUSER:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#AWVALID" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AWVALID:chisel3.core.Bool"></a>
+      <a id="AWVALID:Bool"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">AWVALID</span><span class="result">: <span class="extype" name="chisel3.core.Bool">Bool</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@AWVALID:chisel3.core.Bool" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#BID" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BID:chisel3.core.UInt"></a>
+      <a id="BID:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">BID</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@BID:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#BREADY" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BREADY:chisel3.core.Bool"></a>
+      <a id="BREADY:Bool"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">BREADY</span><span class="result">: <span class="extype" name="chisel3.core.Bool">Bool</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@BREADY:chisel3.core.Bool" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#BRESP" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BRESP:chisel3.core.UInt"></a>
+      <a id="BRESP:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">BRESP</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@BRESP:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#BUSER" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BUSER:chisel3.core.UInt"></a>
+      <a id="BUSER:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">BUSER</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@BUSER:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#BVALID" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BVALID:chisel3.core.Bool"></a>
+      <a id="BVALID:Bool"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">BVALID</span><span class="result">: <span class="extype" name="chisel3.core.Bool">Bool</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@BVALID:chisel3.core.Bool" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#RDATA" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RDATA:chisel3.core.UInt"></a>
+      <a id="RDATA:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RDATA</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@RDATA:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#RID" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RID:chisel3.core.UInt"></a>
+      <a id="RID:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RID</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@RID:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#RLAST" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RLAST:chisel3.core.Bool"></a>
+      <a id="RLAST:Bool"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RLAST</span><span class="result">: <span class="extype" name="chisel3.core.Bool">Bool</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@RLAST:chisel3.core.Bool" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#RREADY" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RREADY:chisel3.core.Bool"></a>
+      <a id="RREADY:Bool"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RREADY</span><span class="result">: <span class="extype" name="chisel3.core.Bool">Bool</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@RREADY:chisel3.core.Bool" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#RRESP" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RRESP:chisel3.core.UInt"></a>
+      <a id="RRESP:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RRESP</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@RRESP:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#RUSER" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RUSER:chisel3.core.UInt"></a>
+      <a id="RUSER:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RUSER</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@RUSER:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#RVALID" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RVALID:chisel3.core.Bool"></a>
+      <a id="RVALID:Bool"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RVALID</span><span class="result">: <span class="extype" name="chisel3.core.Bool">Bool</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@RVALID:chisel3.core.Bool" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#WDATA" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WDATA:chisel3.core.UInt"></a>
+      <a id="WDATA:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">WDATA</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@WDATA:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#WID" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WID:chisel3.core.UInt"></a>
+      <a id="WID:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">WID</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@WID:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#WLAST" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WLAST:chisel3.core.Bool"></a>
+      <a id="WLAST:Bool"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">WLAST</span><span class="result">: <span class="extype" name="chisel3.core.Bool">Bool</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@WLAST:chisel3.core.Bool" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#WREADY" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WREADY:chisel3.core.Bool"></a>
+      <a id="WREADY:Bool"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">WREADY</span><span class="result">: <span class="extype" name="chisel3.core.Bool">Bool</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@WREADY:chisel3.core.Bool" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#WSTRB" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WSTRB:chisel3.core.UInt"></a>
+      <a id="WSTRB:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">WSTRB</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@WSTRB:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#WUSER" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WUSER:chisel3.core.UInt"></a>
+      <a id="WUSER:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">WUSER</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@WUSER:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.interface.axi.XilinxAXIMaster#WVALID" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WVALID:chisel3.core.Bool"></a>
+      <a id="WVALID:Bool"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">WVALID</span><span class="result">: <span class="extype" name="chisel3.core.Bool">Bool</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@WVALID:chisel3.core.Bool" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="scala.Any#asInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="asInstanceOf[T0]:T0"></a>
+      <a id="asInstanceOf[T0]:T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">asInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Any.asInstanceOf.T0">T0</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@asInstanceOf[T0]:T0" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="chisel3.core.Data#asTypeOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="asTypeOf[T&lt;:chisel3.core.Data](that:T):T"></a>
+      <a id="asTypeOf[T&lt;:Data](T):T"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">asTypeOf</span><span class="tparams">[<span name="T">T &lt;: <span class="extype" name="chisel3.core.Data">Data</span></span>]</span><span class="params">(<span name="that">that: <span class="extype" name="chisel3.core.Data.asTypeOf.T">T</span></span>)</span><span class="result">: <span class="extype" name="chisel3.core.Data.asTypeOf.T">T</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@asTypeOf[T&lt;:chisel3.core.Data](that:T):T" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Data</dd></dl></div>
+    </li><li name="chisel3.core.Data#asUInt" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="asUInt():chisel3.core.UInt"></a>
+      <a id="asUInt():UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final macro </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">asUInt</span><span class="params">()</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@asUInt():chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Data</dd></dl></div>
+    </li><li name="chisel3.core.Data#binding_=" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="binding_=(target:chisel3.core.Binding):Unit"></a>
+      <a id="binding_=(Binding):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: binding_$eq" class="name">binding_=</span><span class="params">(<span name="target">target: <span class="extype" name="chisel3.core.Binding">Binding</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@binding_=(target:chisel3.core.Binding):Unit" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Data</dd></dl></div>
+    </li><li name="chisel3.internal.HasId#circuitName" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="circuitName:String"></a>
+      <a id="circuitName:String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">circuitName</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@circuitName:String" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>HasId</dd></dl></div>
+    </li><li name="chisel3.core.Bundle#className" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="className:String"></a>
+      <a id="className:String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">className</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@className:String" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Bundle → Record</dd></dl></div>
+    </li><li name="scala.AnyRef#clone" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="clone():Object"></a>
+      <a id="clone():AnyRef"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">clone</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@clone():Object" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../../../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@HotSpotIntrinsicCandidate</span><span class="args">()</span>
+              
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.CloneNotSupportedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="vta.util.genericbundle.GenericParameterizedBundle#cloneType" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="cloneType:GenericParameterizedBundle.this.type"></a>
+      <a id="cloneType:XilinxAXIMaster.this.type"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">cloneType</span><span class="result">: <a href="" class="extype" name="vta.interface.axi.XilinxAXIMaster">XilinxAXIMaster</a>.this.type</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@cloneType:GenericParameterizedBundle.this.type" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../../util/genericbundle/GenericParameterizedBundle.html" class="extype" name="vta.util.genericbundle.GenericParameterizedBundle">GenericParameterizedBundle</a> → Bundle → Data</dd></dl></div>
+    </li><li name="chisel3.core.Data#do_asTypeOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="do_asTypeOf[T&lt;:chisel3.core.Data](that:T)(implicitsourceInfo:chisel3.internal.sourceinfo.SourceInfo,implicitcompileOptions:chisel3.core.CompileOptions):T"></a>
+      <a id="do_asTypeOf[T&lt;:Data](T)(SourceInfo,CompileOptions):T"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">do_asTypeOf</span><span class="tparams">[<span name="T">T &lt;: <span class="extype" name="chisel3.core.Data">Data</span></span>]</span><span class="params">(<span name="that">that: <span class="extype" name="chisel3.core.Data.do_asTypeOf.T">T</span></span>)</span><span class="params">(<span class="implicit">implicit </span><span name="sourceInfo">sourceInfo: <span class="extype" name="chisel3.internal.sourceinfo.SourceInfo">SourceInfo</span></span>, <span name="compileOptions">compileOptions: <span class="extype" name="chisel3.core.CompileOptions">CompileOptions</span></span>)</span><span class="result">: <span class="extype" name="chisel3.core.Data.do_asTypeOf.T">T</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@do_asTypeOf[T&lt;:chisel3.core.Data](that:T)(implicitsourceInfo:chisel3.internal.sourceinfo.SourceInfo,implicitcompileOptions:chisel3.core.CompileOptions):T" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Data</dd></dl></div>
+    </li><li name="chisel3.core.Aggregate#do_asUInt" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="do_asUInt(implicitsourceInfo:chisel3.internal.sourceinfo.SourceInfo,implicitcompileOptions:chisel3.core.CompileOptions):chisel3.core.UInt"></a>
+      <a id="do_asUInt(SourceInfo,CompileOptions):UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">do_asUInt</span><span class="params">(<span class="implicit">implicit </span><span name="sourceInfo">sourceInfo: <span class="extype" name="chisel3.internal.sourceinfo.SourceInfo">SourceInfo</span></span>, <span name="compileOptions">compileOptions: <span class="extype" name="chisel3.core.CompileOptions">CompileOptions</span></span>)</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@do_asUInt(implicitsourceInfo:chisel3.internal.sourceinfo.SourceInfo,implicitcompileOptions:chisel3.core.CompileOptions):chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Aggregate → Data</dd></dl></div>
+    </li><li name="chisel3.core.Bundle#elements" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="elements:scala.collection.immutable.ListMap[String,chisel3.core.Data]"></a>
+      <a id="elements:ListMap[String,Data]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">lazy val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">elements</span><span class="result">: <span class="extype" name="scala.collection.immutable.ListMap">ListMap</span>[<span class="extype" name="scala.Predef.String">String</span>, <span class="extype" name="chisel3.core.Data">Data</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@elements:scala.collection.immutable.ListMap[String,chisel3.core.Data]" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Bundle → Record</dd></dl></div>
+    </li><li name="scala.AnyRef#eq" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="eq(x$1:AnyRef):Boolean"></a>
+      <a id="eq(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">eq</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@eq(x$1:AnyRef):Boolean" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="chisel3.internal.HasId#equals" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="equals(that:Any):Boolean"></a>
+      <a id="equals(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">equals</span><span class="params">(<span name="that">that: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@equals(that:Any):Boolean" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>HasId → AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#getClass" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="getClass():Class[_]"></a>
+      <a id="getClass():Class[_]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getClass</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.Class">Class</span>[_]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@getClass():Class[_]" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd><dt>Annotations</dt><dd>
+                <span class="name">@HotSpotIntrinsicCandidate</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="chisel3.core.Record#getElements" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="getElements:Seq[chisel3.core.Data]"></a>
+      <a id="getElements:Seq[Data]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getElements</span><span class="result">: <span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="chisel3.core.Data">Data</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@getElements:Seq[chisel3.core.Data]" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Record → Aggregate</dd></dl></div>
+    </li><li name="chisel3.core.Data#getWidth" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="getWidth:Int"></a>
+      <a id="getWidth:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getWidth</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@getWidth:Int" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Data</dd></dl></div>
+    </li><li name="chisel3.internal.HasId#hashCode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="hashCode():Int"></a>
+      <a id="hashCode():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hashCode</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@hashCode():Int" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>HasId → AnyRef → Any</dd></dl></div>
+    </li><li name="chisel3.core.Bundle#ignoreSeq" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ignoreSeq:Boolean"></a>
+      <a id="ignoreSeq:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ignoreSeq</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@ignoreSeq:Boolean" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Bundle</dd></dl></div>
+    </li><li name="chisel3.internal.HasId#instanceName" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="instanceName:String"></a>
+      <a id="instanceName:String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">instanceName</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@instanceName:String" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>HasId → InstanceId</dd></dl></div>
+    </li><li name="scala.Any#isInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@isInstanceOf[T0]:Boolean" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="chisel3.core.Data#isLit" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isLit():Boolean"></a>
+      <a id="isLit():Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isLit</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@isLit():Boolean" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Data</dd></dl></div>
+    </li><li name="chisel3.core.Data#isWidthKnown" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isWidthKnown:Boolean"></a>
+      <a id="isWidthKnown:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isWidthKnown</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@isWidthKnown:Boolean" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Data</dd></dl></div>
+    </li><li name="chisel3.core.Data#litArg" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="litArg():Option[chisel3.internal.firrtl.LitArg]"></a>
+      <a id="litArg():Option[LitArg]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">litArg</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="chisel3.internal.firrtl.LitArg">LitArg</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@litArg():Option[chisel3.internal.firrtl.LitArg]" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Data</dd></dl></div>
+    </li><li name="chisel3.core.Data#litValue" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="litValue():BigInt"></a>
+      <a id="litValue():BigInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">litValue</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.BigInt">BigInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@litValue():BigInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Data</dd></dl></div>
+    </li><li name="scala.AnyRef#ne" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ne(x$1:AnyRef):Boolean"></a>
+      <a id="ne(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ne</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@ne(x$1:AnyRef):Boolean" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#notify" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notify():Unit"></a>
+      <a id="notify():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notify</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@notify():Unit" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@HotSpotIntrinsicCandidate</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#notifyAll" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notifyAll():Unit"></a>
+      <a id="notifyAll():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notifyAll</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@notifyAll():Unit" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@HotSpotIntrinsicCandidate</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="vta.util.genericbundle.GenericParameterizedBundle#params" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="params:T"></a>
+      <a id="params:AXIParams"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">params</span><span class="result">: <a href="AXIParams.html" class="extype" name="vta.interface.axi.AXIParams">AXIParams</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@params:T" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../../util/genericbundle/GenericParameterizedBundle.html" class="extype" name="vta.util.genericbundle.GenericParameterizedBundle">GenericParameterizedBundle</a></dd></dl></div>
+    </li><li name="chisel3.internal.HasId#parentModName" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="parentModName:String"></a>
+      <a id="parentModName:String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">parentModName</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@parentModName:String" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>HasId → InstanceId</dd></dl></div>
+    </li><li name="chisel3.internal.HasId#parentPathName" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="parentPathName:String"></a>
+      <a id="parentPathName:String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">parentPathName</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@parentPathName:String" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>HasId → InstanceId</dd></dl></div>
+    </li><li name="chisel3.internal.HasId#pathName" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="pathName:String"></a>
+      <a id="pathName:String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">pathName</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@pathName:String" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>HasId → InstanceId</dd></dl></div>
+    </li><li name="chisel3.internal.HasId#suggestName" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="suggestName(name:=&gt;String):HasId.this.type"></a>
+      <a id="suggestName(⇒String):XilinxAXIMaster.this.type"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">suggestName</span><span class="params">(<span name="name">name: ⇒ <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <a href="" class="extype" name="vta.interface.axi.XilinxAXIMaster">XilinxAXIMaster</a>.this.type</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@suggestName(name:=&gt;String):HasId.this.type" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>HasId</dd></dl></div>
+    </li><li name="scala.AnyRef#synchronized" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="synchronized[T0](x$1:=&gt;T0):T0"></a>
+      <a id="synchronized[T0](⇒T0):T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">synchronized</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="params">(<span name="arg0">arg0: ⇒ <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>)</span><span class="result">: <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@synchronized[T0](x$1:=&gt;T0):T0" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="chisel3.internal.NamedComponent#toNamed" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toNamed:firrtl.annotations.ComponentName"></a>
+      <a id="toNamed:ComponentName"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toNamed</span><span class="result">: <span class="extype" name="firrtl.annotations.ComponentName">ComponentName</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@toNamed:firrtl.annotations.ComponentName" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>NamedComponent → InstanceId</dd></dl></div>
+    </li><li name="chisel3.core.Bundle#toPrintable" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toPrintable:chisel3.core.Printable"></a>
+      <a id="toPrintable:Printable"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toPrintable</span><span class="result">: <span class="extype" name="chisel3.core.Printable">Printable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@toPrintable:chisel3.core.Printable" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Bundle → Record → Data</dd></dl></div>
+    </li><li name="scala.AnyRef#toString" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toString():String"></a>
+      <a id="toString():String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toString</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@toString():String" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long,x$2:Int):Unit"></a>
+      <a id="wait(Long,Int):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Long">Long</span></span>, <span name="arg1">arg1: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@wait(x$1:Long,x$2:Int):Unit" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long):Unit"></a>
+      <a id="wait(Long):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@wait(x$1:Long):Unit" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait():Unit"></a>
+      <a id="wait():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@wait():Unit" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="chisel3.core.Data#widthOption" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="widthOption:Option[Int]"></a>
+      <a id="widthOption:Option[Int]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">widthOption</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Int">Int</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@widthOption:Option[Int]" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Data</dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Deprecated Value Members</h3>
+              <ol><li name="scala.AnyRef#finalize" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="finalize():Unit"></a>
+      <a id="finalize():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name deprecated" title="Deprecated: (Since version ) see corresponding Javadoc for more information.">finalize</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@finalize():Unit" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../../../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@Deprecated</span>
+              
+                <span class="name">@deprecated</span>
+              
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="symbol">classOf[java.lang.Throwable]</span>
+    </span>)</span>
+              
+        </dd><dt>Deprecated</dt><dd class="cmt"><p><i>(Since version )</i> see corresponding Javadoc for more information.</p></dd></dl></div>
+    </li><li name="chisel3.core.Data#toBits" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toBits(implicitcompileOptions:chisel3.core.CompileOptions):chisel3.core.UInt"></a>
+      <a id="toBits(CompileOptions):UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name deprecated" title="Deprecated: (Since version chisel3) Best alternative, .asUInt()">toBits</span><span class="params">(<span class="implicit">implicit </span><span name="compileOptions">compileOptions: <span class="extype" name="chisel3.core.CompileOptions">CompileOptions</span></span>)</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#vta.interface.axi.XilinxAXIMaster@toBits(implicitcompileOptions:chisel3.core.CompileOptions):chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Data</dd><dt>Annotations</dt><dd>
+                <span class="name">@deprecated</span>
+              
+        </dd><dt>Deprecated</dt><dd class="cmt"><p><i>(Since version chisel3)</i> Best alternative, .asUInt()</p></dd></dl></div>
+    </li></ol>
+            </div>
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="vta.interface.axi.AXIBase">
+              <h3>Inherited from <a href="AXIBase.html" class="extype" name="vta.interface.axi.AXIBase">AXIBase</a></h3>
+            </div><div class="parent" name="vta.util.genericbundle.GenericParameterizedBundle">
+              <h3>Inherited from <a href="../../util/genericbundle/GenericParameterizedBundle.html" class="extype" name="vta.util.genericbundle.GenericParameterizedBundle">GenericParameterizedBundle</a>[<a href="AXIParams.html" class="extype" name="vta.interface.axi.AXIParams">AXIParams</a>]</h3>
+            </div><div class="parent" name="chisel3.core.Bundle">
+              <h3>Inherited from <span class="extype" name="chisel3.core.Bundle">Bundle</span></h3>
+            </div><div class="parent" name="chisel3.core.Record">
+              <h3>Inherited from <span class="extype" name="chisel3.core.Record">Record</span></h3>
+            </div><div class="parent" name="chisel3.core.Aggregate">
+              <h3>Inherited from <span class="extype" name="chisel3.core.Aggregate">Aggregate</span></h3>
+            </div><div class="parent" name="chisel3.core.Data">
+              <h3>Inherited from <span class="extype" name="chisel3.core.Data">Data</span></h3>
+            </div><div class="parent" name="chisel3.internal.NamedComponent">
+              <h3>Inherited from <span class="extype" name="chisel3.internal.NamedComponent">NamedComponent</span></h3>
+            </div><div class="parent" name="chisel3.internal.HasId">
+              <h3>Inherited from <span class="extype" name="chisel3.internal.HasId">HasId</span></h3>
+            </div><div class="parent" name="chisel3.internal.InstanceId">
+              <h3>Inherited from <span class="extype" name="chisel3.internal.InstanceId">InstanceId</span></h3>
+            </div><div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <span class="extype" name="scala.AnyRef">AnyRef</span></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

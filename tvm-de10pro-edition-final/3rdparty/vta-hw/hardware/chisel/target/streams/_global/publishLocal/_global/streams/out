@@ -1,0 +1,10 @@
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: edu.washington.cs#vta_2.11;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Sat May 29 04:50:25 UTC 2021[0m
+[0m[[0m[0mdebug[0m] [0m[0m	options = status=integration pubdate=Sat May 29 04:50:25 UTC 2021 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/target/scala-2.11/ivy-0.1.0-SNAPSHOT.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	deliver done (240ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mlocal do not support transaction. ivy pattern does not use revision as a directory[0m
+[0m[[0m[0minfo[0m] [0m[0m	published vta_2.11 to /home/terasic/.ivy2/local/edu.washington.cs/vta_2.11/0.1.0-SNAPSHOT/poms/vta_2.11.pom[0m
+[0m[[0m[0minfo[0m] [0m[0m	published vta_2.11 to /home/terasic/.ivy2/local/edu.washington.cs/vta_2.11/0.1.0-SNAPSHOT/jars/vta_2.11.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published vta_2.11 to /home/terasic/.ivy2/local/edu.washington.cs/vta_2.11/0.1.0-SNAPSHOT/srcs/vta_2.11-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published vta_2.11 to /home/terasic/.ivy2/local/edu.washington.cs/vta_2.11/0.1.0-SNAPSHOT/docs/vta_2.11-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /home/terasic/.ivy2/local/edu.washington.cs/vta_2.11/0.1.0-SNAPSHOT/ivys/ivy.xml[0m

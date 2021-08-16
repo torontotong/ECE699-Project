@@ -1,0 +1,80 @@
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/target/scala-2.11/api...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.11:1.3.0:compile for Scala 2.11.12[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.11' for Scala 2.11.12. Compiling...[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating plain compiler interface for 2.11.12.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > Arguments: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	-nowarn[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_bf440968[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.0/compiler-interface-1.3.0.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.11/1.3.0/compiler-bridge_2.11-1.3.0-sources.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.12/scala-compiler-2.11.12.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.3/jline-2.14.3.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/API.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/Analyzer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/CallbackGlobal.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/ClassName.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/Command.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/Compat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/CompilerInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/ConsoleInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/DelegatingReporter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/Dependency.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/ExtractAPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/ExtractUsedNames.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/GlobalHelpers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/InteractiveConsoleFactory.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/InteractiveConsoleHelper.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/InteractiveConsoleInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/InteractiveConsoleResponse.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/JarUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/JavaUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/LocalToNonLocalClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/LocateClassFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/Log.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/Message.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_4a2daec0/xsbt/ScaladocInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m      [0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 119.744s.[0m
+[0m[[0m[0mdebug[0m] [0m[0mCalling Scaladoc with arguments:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/target/scala-2.11/api[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.6/scala-xml_2.11-1.0.6.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/firrtl_2.11/1.1.7/firrtl_2.11-1.1.7.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/net/jcazevedo/moultingyaml_2.11/0.4.0/moultingyaml_2.11-0.4.0.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.11/jansi-1.11.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7.1/antlr4-runtime-4.7.1.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-scalap_2.11/3.5.3/json4s-scalap_2.11-3.5.3.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/treadle_2.11/1.0.1/treadle_2.11-1.0.1.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/com/ibm/icu/icu4j/58.2/icu4j-58.2.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/scopt/scopt_2.11/3.7.0/scopt_2.11-3.7.0.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.11/3.7.2/scala-logging_2.11-3.7.2.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-ast_2.11/3.5.3/json4s-ast_2.11-3.5.3.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-core_2.11/3.5.3/json4s-core_2.11-3.5.3.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.11/3.0.1/scalactic_2.11-3.0.1.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel-iotesters_2.11/1.2.4/chisel-iotesters_2.11-1.2.4.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.5.3/json4s-native_2.11-3.5.3.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4/4.7.1/antlr4-4.7.1.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/2.14.0/nscala-time_2.11-2.14.0.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/firrtl-interpreter_2.11/1.1.3/firrtl-interpreter_2.11-1.1.3.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.13.4/scalacheck_2.11-1.13.4.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3_2.11/3.1.7/chisel3_2.11-3.1.7.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-jline/2.12.1/scala-jline-2.12.1.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.8/ST4-4.0.8.jar:/home/terasic/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.11/3.0.1/scalatest_2.11-3.0.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Compute.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Configs.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Core.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Decode.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/EventCounters.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Fetch.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/ISA.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Load.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/LoadUop.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Semaphore.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Store.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/TensorAlu.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/TensorGemm.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/TensorLoad.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/TensorStore.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/TensorUtil.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/package.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/dpi/VTAHostDPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/dpi/VTAMemDPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/dpi/VTASimDPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/interface/axi/AXI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/Configs.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/IntelShell.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/SimShell.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/VCR.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/VME.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/VTAShell.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/XilinxShell.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/test/Test.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/util/Config.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/util/GenericParameterizedBundle.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/terasic/workspace/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/vta/Configs.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were 1066 feature warnings; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m

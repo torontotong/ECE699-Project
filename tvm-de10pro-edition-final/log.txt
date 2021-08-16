@@ -1,0 +1,92 @@
+registering diagnostics.override_renderer
+registering <function override_renderer at 0xffffa9ea39d8>
+registering tvm.default_trace_action
+registering <function _tvm_default_trace_action at 0xffffa9e50f28>
+registering target._load_config_dict
+registering <function _load_config_dict at 0xffffa9e0b9d8>
+registering tvm_callback_rocm_link
+registering <function callback_rocm_link at 0xffffa9d916a8>
+registering tvm_callback_rocm_bitcode_path
+registering <function callback_rocm_bitcode_path at 0xffffa9d91840>
+registering tvm_callback_libdevice_path
+registering <function find_libdevice_path at 0xffffa9d91f28>
+registering tvm_callback_sdaccel_compile
+registering <function compile_vhls at 0xffffa9d15620>
+registering rpc.test.addone
+registering <function _addone at 0xffffa9ca3b70>
+registering rpc.test.strcat
+registering <function _strcat at 0xffffa9ca3d08>
+registering rpc.test.except
+registering <function _remotethrow at 0xffffa9ca3ea0>
+registering rpc.test.runtime_str_concat
+registering <function _strcat at 0xffffa9ca60d0>
+registering rpc.test.remote_array_func
+registering <function _remote_array_func at 0xffffa9ca3ae8>
+registering rpc.test.add_to_lhs
+registering <function _add_to_lhs at 0xffffa9ca6378>
+registering rpc.test.remote_return_nd
+registering <function _my_module at 0xffffa9ca6510>
+registering rpc.PopenSession
+registering <function _popen_session at 0xffffa9cad6a8>
+registering tvm.contrib.vta.init
+registering <function _server_env.<locals>.program_fpga at 0xffffa9c94b70>
+registering device_api.ext_dev
+registering <function _server_env.<locals>.ext_dev_callback at 0xffffa9c3f378>
+registering tvm.contrib.vta.reconfig_runtime
+registering <function _server_env.<locals>.reconfig_runtime at 0xffffa9c3f598>
+registering tvm.rpc.server.workpath
+registering <function _server_env.<locals>.get_workpath at 0xffffa9c3f730>
+registering tvm.rpc.server.load_module
+registering <function _server_env.<locals>.load_module at 0xffffa9c3f8c8>
+registering tvm.rpc.server.download_linked_module
+registering <function _server_env.<locals>.download_linked_module at 0xffffa9c3fa60>
+registering diagnostics.override_renderer
+registering <function override_renderer at 0xffff7381dbf8>
+registering tvm.default_trace_action
+registering <function _tvm_default_trace_action at 0xffff7374a1e0>
+registering target._load_config_dict
+registering <function _load_config_dict at 0xffff73779bf8>
+registering tvm_callback_rocm_link
+registering <function callback_rocm_link at 0xffff736f48c8>
+registering tvm_callback_rocm_bitcode_path
+registering <function callback_rocm_bitcode_path at 0xffff736f4a60>
+registering tvm_callback_libdevice_path
+registering <function find_libdevice_path at 0xffff736841e0>
+registering tvm_callback_sdaccel_compile
+registering <function compile_vhls at 0xffff73684840>
+registering rpc.test.addone
+registering <function _addone at 0xffff73637d90>
+registering rpc.test.strcat
+registering <function _strcat at 0xffff73637f28>
+registering rpc.test.except
+registering <function _remotethrow at 0xffff73635158>
+registering rpc.test.runtime_str_concat
+registering <function _strcat at 0xffff736352f0>
+registering rpc.test.remote_array_func
+registering <function _remote_array_func at 0xffff736350d0>
+registering rpc.test.add_to_lhs
+registering <function _add_to_lhs at 0xffff73635598>
+registering rpc.test.remote_return_nd
+registering <function _my_module at 0xffff73635730>
+registering rpc.PopenSession
+registering <function _popen_session at 0xffff7363c840>
+registering tvm_callback_cuda_compile
+registering <function tvm_callback_cuda_compile at 0xffff735ae7b8>
+registering tvm.info.mem.local.inp_buffer
+registering <function mem_info_inp_buffer at 0xffff73575bf8>
+registering tvm.info.mem.local.wgt_buffer
+registering <function mem_info_wgt_buffer at 0xffff73575d90>
+registering tvm.info.mem.local.acc_buffer
+registering <function mem_info_acc_buffer at 0xffff73575f28>
+registering tvm.rpc.server.start
+registering <function server_start at 0xffff73588ea0>
+registering tvm.rpc.server.load_module
+registering <function server_start.<locals>.load_module at 0xffff734eaea0>
+registering device_api.ext_dev
+registering <function server_start.<locals>.ext_dev_callback at 0xffff735080d0>
+registering tvm.contrib.vta.init
+registering <function server_start.<locals>.program_fpga at 0xffff73508268>
+registering tvm.rpc.server.shutdown
+registering <function server_start.<locals>.server_shutdown at 0xffff73508400>
+registering tvm.contrib.vta.reconfig_runtime
+registering <function server_start.<locals>.reconfig_runtime at 0xffff73508598>

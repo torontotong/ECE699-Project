@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++14 -faligned-new -O2 -Wall -fPIC  -fpermissive  -shared -Wl,-soname,libvta.so -o libvta.so CMakeFiles/vta.dir/vta/runtime/device_api.cc.o CMakeFiles/vta.dir/vta/runtime/runtime.cc.o CMakeFiles/vta.dir/3rdparty/vta-hw/src/de10pro/cma_api.cc.o CMakeFiles/vta.dir/3rdparty/vta-hw/src/de10pro/de10pro_driver.cc.o 

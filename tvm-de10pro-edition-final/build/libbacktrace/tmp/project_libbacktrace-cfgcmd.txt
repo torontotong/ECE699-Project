@@ -1,0 +1,1 @@
+cmd='/home/terasic/workspace/tvm/cmake/libs/../../3rdparty/libbacktrace/configure;--prefix=/home/terasic/workspace/tvm/build/libbacktrace;--with-pic'

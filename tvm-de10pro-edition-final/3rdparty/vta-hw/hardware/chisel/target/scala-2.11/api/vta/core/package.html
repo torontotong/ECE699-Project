@@ -1,0 +1,1508 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>core - vta.core</title>
+          <meta name="description" content="core - vta.core" />
+          <meta name="keywords" content="core vta.core" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../lib/template.js"></script>
+      <script type="text/javascript" src="../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../index.html';
+            var hash = 'vta.core.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../lib/package_big.png" />
+        <p id="owner"><a href="../package.html" class="extype" name="vta">vta</a></p>
+        <h1>core</h1><span class="permalink">
+      <a href="../../index.html#vta.core.package" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">core</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>This trick makes ISAConstants globally available</p></div><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a>, <span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+        </div></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        <div id="order">
+              <span class="filtertype">Ordering</span>
+              <ol>
+                
+                <li class="alpha in"><span>Alphabetic</span></li>
+                <li class="inherit out"><span>By Inheritance</span></li>
+              </ol>
+            </div>
+        <div id="ancestors">
+                <span class="filtertype">Inherited<br />
+                </span>
+                <ol id="linearization">
+                  <li class="in" name="vta.core"><span>core</span></li><li class="in" name="vta.core.ISAConstants"><span>ISAConstants</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                </ol>
+              </div><div id="ancestors">
+            <span class="filtertype"></span>
+            <ol>
+              <li class="hideall out"><span>Hide All</span></li>
+              <li class="showall in"><span>Show All</span></li>
+            </ol>
+          </div>
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="vta.core.Adder" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Adderextendschisel3.Module"></a>
+      <a id="Adder:Adder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Adder.html"><span class="name">Adder</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@Adderextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Adder</p><div class="fullcomment"><div class="comment cmt"><p>Adder</p><p>This unit wires input bits to an adder directly.
+The output comes out of combinational logic without waiting for another cycle.
+</p></div></div>
+    </li><li name="vta.core.Alu" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Aluextendschisel3.Module"></a>
+      <a id="Alu:Alu"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Alu.html"><span class="name">Alu</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@Aluextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">ALU datapath</p>
+    </li><li name="vta.core.AluDecode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="AluDecodeextendschisel3.Bundle"></a>
+      <a id="AluDecode:AluDecode"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="AluDecode.html"><span class="name">AluDecode</span></a><span class="result"> extends <span class="extype" name="chisel3.Bundle">Bundle</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@AluDecodeextendschisel3.Bundle" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">AluDecode.</p><div class="fullcomment"><div class="comment cmt"><p>AluDecode.</p><p>Decode ALU instructions with a Bundle. This is similar to an union,
+therefore order matters when declaring fields. These are the instructions
+decoded with this bundle:</p><ul><li>VMIN</li><li>VMAX</li><li>VADD</li><li>VSHX
+</li></ul></div></div>
+    </li><li name="vta.core.AluReg" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AluRegextendschisel3.Module"></a>
+      <a id="AluReg:AluReg"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="AluReg.html"><span class="name">AluReg</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@AluRegextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Pipelined ALU</p>
+    </li><li name="vta.core.AluVector" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AluVectorextendschisel3.Module"></a>
+      <a id="AluVector:AluVector"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="AluVector.html"><span class="name">AluVector</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@AluVectorextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Vector of pipeline ALUs</p>
+    </li><li name="vta.core.Compute" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Computeextendschisel3.Module"></a>
+      <a id="Compute:Compute"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Compute.html"><span class="name">Compute</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@Computeextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Compute.</p><div class="fullcomment"><div class="comment cmt"><p>Compute.</p><p>The compute unit is in charge of the following:
+- Loading micro-ops from memory (loadUop module)
+- Loading biases (acc) from memory (tensorAcc module)
+- Compute ALU instructions (tensorAlu module)
+- Compute GEMM instructions (tensorGemm module)
+</p></div></div>
+    </li><li name="vta.core.ComputeDecode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ComputeDecodeextendschisel3.Module"></a>
+      <a id="ComputeDecode:ComputeDecode"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ComputeDecode.html"><span class="name">ComputeDecode</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@ComputeDecodeextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">ComputeDecode.</p><div class="fullcomment"><div class="comment cmt"><p>ComputeDecode.</p><p>Decode dependencies, type and sync for Compute module.
+</p></div></div>
+    </li><li name="vta.core.Core" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Coreextendschisel3.Module"></a>
+      <a id="Core:Core"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Core.html"><span class="name">Core</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@Coreextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Core.</p><div class="fullcomment"><div class="comment cmt"><p>Core.</p><p>The core defines the current VTA architecture by connecting memory and
+compute modules together such as load/store and compute. Most of the
+connections in the core are bulk (&lt;&gt;), and we should try to keep it this
+way, because it is easier to understand what is going on.</p><p>Also, the core must be instantiated by a shell using the
+VTA Control Register (VCR) and the VTA Memory Engine (VME) interfaces.
+More info about these interfaces and modules can be found in the shell
+directory.
+</p></div></div>
+    </li><li name="vta.core.CoreConfig" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="CoreConfigextendsConfig"></a>
+      <a id="CoreConfig:CoreConfig"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="CoreConfig.html"><span class="name">CoreConfig</span></a><span class="result"> extends <a href="../util/config/Config.html" class="extype" name="vta.util.config.Config">Config</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@CoreConfigextendsConfig" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">CoreConfig.</p><div class="fullcomment"><div class="comment cmt"><p>CoreConfig.</p><p>This is one supported configuration for VTA. This file will
+be eventually filled out with class configurations that can be
+mixed/matched with Shell configurations for different backends.
+</p></div></div>
+    </li><li name="vta.core.CoreParams" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CoreParamsextendsProductwithSerializable"></a>
+      <a id="CoreParams:CoreParams"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="CoreParams.html"><span class="name">CoreParams</span></a><span class="params">(<span name="batch">batch: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">1</span></span>, <span name="blockOut">blockOut: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">16</span></span>, <span name="blockIn">blockIn: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">16</span></span>, <span name="inpBits">inpBits: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">8</span></span>, <span name="wgtBits">wgtBits: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">8</span></span>, <span name="uopBits">uopBits: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">32</span></span>, <span name="accBits">accBits: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">32</span></span>, <span name="outBits">outBits: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">8</span></span>, <span name="uopMemDepth">uopMemDepth: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">512</span></span>, <span name="inpMemDepth">inpMemDepth: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">512</span></span>, <span name="wgtMemDepth">wgtMemDepth: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">512</span></span>, <span name="accMemDepth">accMemDepth: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">512</span></span>, <span name="outMemDepth">outMemDepth: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">512</span></span>, <span name="instQueueEntries">instQueueEntries: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">32</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@CoreParamsextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Core parameters</p>
+    </li><li name="vta.core.DotProduct" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DotProductextendschisel3.Module"></a>
+      <a id="DotProduct:DotProduct"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="DotProduct.html"><span class="name">DotProduct</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@DotProductextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Pipelined DotProduct based on MAC and PipeAdder</p>
+    </li><li name="vta.core.EventCounters" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="EventCountersextendschisel3.Module"></a>
+      <a id="EventCounters:EventCounters"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="EventCounters.html"><span class="name">EventCounters</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@EventCountersextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">EventCounters.</p><div class="fullcomment"><div class="comment cmt"><p>EventCounters.</p><p>This unit contains all the event counting logic. One common event tracked in
+hardware is the number of clock cycles taken to achieve certain task. We
+can count the total number of clock cycles spent in a VTA run by checking
+launch and finish signals.</p><p>The event counter value is passed to the VCR module via the ecnt port, so
+they can be accessed by the host. The number of event counters (nECnt) is
+defined in the Shell VCR module as a parameter, see VCRParams.</p><p>If one would like to add an event counter, then the value of nECnt must be
+changed in VCRParams together with the corresponding counting logic here.
+</p></div></div>
+    </li><li name="vta.core.Fetch" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Fetchextendschisel3.Module"></a>
+      <a id="Fetch:Fetch"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Fetch.html"><span class="name">Fetch</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@Fetchextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Fetch.</p><div class="fullcomment"><div class="comment cmt"><p>Fetch.</p><p>The fetch unit reads instructions (tasks) from memory (i.e. DRAM), using the
+VTA Memory Engine (VME), and push them into an instruction queue called
+inst_q. Once the instruction queue is full, instructions are dispatched to
+the Load, Compute and Store module queues based on the instruction opcode.
+After draining the queue, the fetch unit checks if there are more instructions
+via the ins_count register which is written by the host.</p><p>Additionally, instructions are read into two chunks (see sReadLSB and sReadMSB)
+because we are using a DRAM payload of 8-bytes or half of a VTA instruction.
+This should be configurable for larger payloads, i.e. 64-bytes, which can load
+more than one instruction at the time. Finally, the instruction queue is
+sized (entries_q), depending on the maximum burst allowed in the memory.
+</p></div></div>
+    </li><li name="vta.core.FetchDecode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="FetchDecodeextendschisel3.Module"></a>
+      <a id="FetchDecode:FetchDecode"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="FetchDecode.html"><span class="name">FetchDecode</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@FetchDecodeextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">FetchDecode.</p><div class="fullcomment"><div class="comment cmt"><p>FetchDecode.</p><p>Partial decoding for dispatching instructions to Load, Compute, and Store.
+</p></div></div>
+    </li><li name="vta.core.GemmDecode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="GemmDecodeextendschisel3.Bundle"></a>
+      <a id="GemmDecode:GemmDecode"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="GemmDecode.html"><span class="name">GemmDecode</span></a><span class="result"> extends <span class="extype" name="chisel3.Bundle">Bundle</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@GemmDecodeextendschisel3.Bundle" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">GemmDecode.</p><div class="fullcomment"><div class="comment cmt"><p>GemmDecode.</p><p>Decode GEMM instruction with a Bundle. This is similar to an union,
+therefore order matters when declaring fields.
+</p></div></div>
+    </li><li name="vta.core.ISAConstants" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="ISAConstantsextendsAnyRef"></a>
+      <a id="ISAConstants:ISAConstants"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="ISAConstants.html"><span class="name">ISAConstants</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@ISAConstantsextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">ISAConstants.</p><div class="fullcomment"><div class="comment cmt"><p>ISAConstants.</p><p>These constants are used for decoding (parsing) fields on instructions.
+</p></div></div>
+    </li><li name="vta.core.Load" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Loadextendschisel3.Module"></a>
+      <a id="Load:Load"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Load.html"><span class="name">Load</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@Loadextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Load.</p><div class="fullcomment"><div class="comment cmt"><p>Load.</p><p>Load inputs and weights from memory (DRAM) into scratchpads (SRAMs).
+This module instantiate the TensorLoad unit which is in charge of
+loading 1D and 2D tensors to scratchpads, so it can be used by
+other modules such as Compute.
+</p></div></div>
+    </li><li name="vta.core.LoadDecode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="LoadDecodeextendschisel3.Module"></a>
+      <a id="LoadDecode:LoadDecode"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="LoadDecode.html"><span class="name">LoadDecode</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@LoadDecodeextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">LoadDecode.</p><div class="fullcomment"><div class="comment cmt"><p>LoadDecode.</p><p>Decode dependencies, type and sync for Load module.
+</p></div></div>
+    </li><li name="vta.core.LoadUop" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="LoadUopextendschisel3.Module"></a>
+      <a id="LoadUop:LoadUop"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="LoadUop.html"><span class="name">LoadUop</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@LoadUopextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">LoadUop.</p><div class="fullcomment"><div class="comment cmt"><p>LoadUop.</p><p>Load micro-ops (uops) from memory, i.e. DRAM, and store them in the
+uop-scratchpad. Currently, micro-ops are 32-bit wide and loaded in
+group of 2 given the fact that the DRAM payload is 8-bytes. This module
+should be modified later on to support different DRAM sizes efficiently.
+</p></div></div>
+    </li><li name="vta.core.MAC" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MACextendschisel3.Module"></a>
+      <a id="MAC:MAC"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="MAC.html"><span class="name">MAC</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@MACextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Pipelined multiply and accumulate</p>
+    </li><li name="vta.core.MatrixVectorMultiplication" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MatrixVectorMultiplicationextendschisel3.Module"></a>
+      <a id="MatrixVectorMultiplication:MatrixVectorMultiplication"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="MatrixVectorMultiplication.html"><span class="name">MatrixVectorMultiplication</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@MatrixVectorMultiplicationextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Perform matrix-vector-multiplication based on DotProduct</p>
+    </li><li name="vta.core.MemDecode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="MemDecodeextendschisel3.Bundle"></a>
+      <a id="MemDecode:MemDecode"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="MemDecode.html"><span class="name">MemDecode</span></a><span class="result"> extends <span class="extype" name="chisel3.Bundle">Bundle</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@MemDecodeextendschisel3.Bundle" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">MemDecode.</p><div class="fullcomment"><div class="comment cmt"><p>MemDecode.</p><p>Decode memory instructions with a Bundle. This is similar to an union,
+therefore order matters when declaring fields. These are the instructions
+decoded with this bundle:</p><ul><li>LUOP</li><li>LWGT</li><li>LINP</li><li>LACC</li><li>SOUT
+</li></ul></div></div>
+    </li><li name="vta.core.PipeAdder" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="PipeAdderextendschisel3.Module"></a>
+      <a id="PipeAdder:PipeAdder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PipeAdder.html"><span class="name">PipeAdder</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@PipeAdderextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">PipeAdder</p><div class="fullcomment"><div class="comment cmt"><p>PipeAdder</p><p>This unit loads input bits into register and performs addition in the next cycle
+</p></div></div>
+    </li><li name="vta.core.Semaphore" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Semaphoreextendschisel3.Module"></a>
+      <a id="Semaphore:Semaphore"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Semaphore.html"><span class="name">Semaphore</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@Semaphoreextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Semaphore.</p><div class="fullcomment"><div class="comment cmt"><p>Semaphore.</p><p>This semaphore is used instead of push/pop fifo, used in the initial
+version of VTA. This semaphore is incremented (spost) or decremented (swait)
+depending on the push and pop fields on instructions to prevent RAW and WAR
+hazards.
+</p></div></div>
+    </li><li name="vta.core.Store" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Storeextendschisel3.Module"></a>
+      <a id="Store:Store"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Store.html"><span class="name">Store</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@Storeextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Store.</p><div class="fullcomment"><div class="comment cmt"><p>Store.</p><p>Store results back to memory (DRAM) from scratchpads (SRAMs).
+This module instantiate the TensorStore unit which is in charge
+of storing 1D and 2D tensors to main memory.
+</p></div></div>
+    </li><li name="vta.core.StoreDecode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="StoreDecodeextendschisel3.Module"></a>
+      <a id="StoreDecode:StoreDecode"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="StoreDecode.html"><span class="name">StoreDecode</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@StoreDecodeextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">StoreDecode.</p><div class="fullcomment"><div class="comment cmt"><p>StoreDecode.</p><p>Decode dependencies, type and sync for Store module.
+</p></div></div>
+    </li><li name="vta.core.TensorAlu" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="TensorAluextendschisel3.Module"></a>
+      <a id="TensorAlu:TensorAlu"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="TensorAlu.html"><span class="name">TensorAlu</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@TensorAluextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">TensorAlu.</p><div class="fullcomment"><div class="comment cmt"><p>TensorAlu.</p><p>This unit instantiate the ALU vector unit (AluVector) and go over the
+micro-ops (uops) which are used to read the source operands (vectors)
+from the acc-scratchpad and then they are written back the same
+acc-scratchpad.
+</p></div></div>
+    </li><li name="vta.core.TensorClient" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="TensorClientextendsTensorParams"></a>
+      <a id="TensorClient:TensorClient"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="TensorClient.html"><span class="name">TensorClient</span></a><span class="result"> extends <a href="TensorParams.html" class="extype" name="vta.core.TensorParams">TensorParams</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@TensorClientextendsTensorParams" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">TensorClient.</p><div class="fullcomment"><div class="comment cmt"><p>TensorClient.</p><p>This interface receives read and write tensor-requests to scratchpads. For example,
+The TensorLoad unit uses this interface for receiving read and write requests from
+the TensorGemm unit.
+</p></div></div>
+    </li><li name="vta.core.TensorClientData" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="TensorClientDataextendsTensorParams"></a>
+      <a id="TensorClientData:TensorClientData"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="TensorClientData.html"><span class="name">TensorClientData</span></a><span class="result"> extends <a href="TensorParams.html" class="extype" name="vta.core.TensorParams">TensorParams</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@TensorClientDataextendsTensorParams" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">TensorClientData.</p><div class="fullcomment"><div class="comment cmt"><p>TensorClientData.</p><p>This interface is only used for datapath only purposes and the direction convention
+is based on the TensorClient interface, which means this is an output. This interface
+is used on datapath only module such MatrixVectorCore or AluVector.
+</p></div></div>
+    </li><li name="vta.core.TensorDataCtrl" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="TensorDataCtrlextendschisel3.Module"></a>
+      <a id="TensorDataCtrl:TensorDataCtrl"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="TensorDataCtrl.html"><span class="name">TensorDataCtrl</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@TensorDataCtrlextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">TensorDataCtrl.</p><div class="fullcomment"><div class="comment cmt"><p>TensorDataCtrl. Data controller for TensorLoad.</p></div></div>
+    </li><li name="vta.core.TensorGemm" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="TensorGemmextendschisel3.Module"></a>
+      <a id="TensorGemm:TensorGemm"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="TensorGemm.html"><span class="name">TensorGemm</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@TensorGemmextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">TensorGemm.</p><div class="fullcomment"><div class="comment cmt"><p>TensorGemm.</p><p>This unit instantiate the MatrixVectorMultiplication and go over the
+micro-ops (uops) which are used to read inputs, weights and biases,
+and writes results back to the acc and out scratchpads.</p><p>Also, the TensorGemm uses the reset field in the Gemm instruction to
+clear or zero-out the acc-scratchpad locations based on the micro-ops.
+</p></div></div>
+    </li><li name="vta.core.TensorLoad" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="TensorLoadextendschisel3.Module"></a>
+      <a id="TensorLoad:TensorLoad"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="TensorLoad.html"><span class="name">TensorLoad</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@TensorLoadextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">TensorLoad.</p><div class="fullcomment"><div class="comment cmt"><p>TensorLoad.</p><p>Load 1D and 2D tensors from main memory (DRAM) to input/weight
+scratchpads (SRAM). Also, there is support for zero padding, while
+doing the load. Zero-padding works on the y and x axis, and it is
+managed by TensorPadCtrl. The TensorDataCtrl is in charge of
+handling the way tensors are stored on the scratchpads.
+</p></div></div>
+    </li><li name="vta.core.TensorMaster" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="TensorMasterextendsTensorParams"></a>
+      <a id="TensorMaster:TensorMaster"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="TensorMaster.html"><span class="name">TensorMaster</span></a><span class="result"> extends <a href="TensorParams.html" class="extype" name="vta.core.TensorParams">TensorParams</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@TensorMasterextendsTensorParams" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">TensorMaster.</p><div class="fullcomment"><div class="comment cmt"><p>TensorMaster.</p><p>This interface issue read and write tensor-requests to scratchpads. For example,
+The TensorGemm unit uses this interface for managing the inputs (inp), weights (wgt),
+biases (acc), and outputs (out).</p></div></div>
+    </li><li name="vta.core.TensorMasterData" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="TensorMasterDataextendsTensorParams"></a>
+      <a id="TensorMasterData:TensorMasterData"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="TensorMasterData.html"><span class="name">TensorMasterData</span></a><span class="result"> extends <a href="TensorParams.html" class="extype" name="vta.core.TensorParams">TensorParams</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@TensorMasterDataextendsTensorParams" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">TensorMasterData.</p><div class="fullcomment"><div class="comment cmt"><p>TensorMasterData.</p><p>This interface is only used for datapath only purposes and the direction convention
+is based on the TensorMaster interface, which means this is an input. This interface
+is used on datapath only module such MatrixVectorCore or AluVector.
+</p></div></div>
+    </li><li name="vta.core.TensorPadCtrl" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="TensorPadCtrlextendschisel3.Module"></a>
+      <a id="TensorPadCtrl:TensorPadCtrl"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="TensorPadCtrl.html"><span class="name">TensorPadCtrl</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@TensorPadCtrlextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">TensorPadCtrl.</p><div class="fullcomment"><div class="comment cmt"><p>TensorPadCtrl. Zero-padding controller for TensorLoad.</p></div></div>
+    </li><li name="vta.core.TensorParams" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="TensorParamsextendschisel3.Bundle"></a>
+      <a id="TensorParams:TensorParams"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="TensorParams.html"><span class="name">TensorParams</span></a><span class="result"> extends <span class="extype" name="chisel3.Bundle">Bundle</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@TensorParamsextendschisel3.Bundle" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">TensorParams.</p><div class="fullcomment"><div class="comment cmt"><p>TensorParams.</p><p>This Bundle derives parameters for each tensorType, including inputs (inp),
+weights (wgt), biases (acc), and outputs (out). This is used to avoid
+doing the same boring calculations over and over again.
+</p></div></div>
+    </li><li name="vta.core.TensorStore" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="TensorStoreextendschisel3.Module"></a>
+      <a id="TensorStore:TensorStore"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="TensorStore.html"><span class="name">TensorStore</span></a><span class="result"> extends <span class="extype" name="chisel3.Module">Module</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@TensorStoreextendschisel3.Module" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">TensorStore.</p><div class="fullcomment"><div class="comment cmt"><p>TensorStore.</p><p>Store 1D and 2D tensors from out-scratchpad (SRAM) to main memory (DRAM).
+</p></div></div>
+    </li><li name="vta.core.UopClient" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="UopClientextendschisel3.Bundle"></a>
+      <a id="UopClient:UopClient"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="UopClient.html"><span class="name">UopClient</span></a><span class="result"> extends <span class="extype" name="chisel3.Bundle">Bundle</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@UopClientextendschisel3.Bundle" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">UopClient.</p><div class="fullcomment"><div class="comment cmt"><p>UopClient.</p><p>Uop interface used by a client module, i.e. LoadUop, to receive
+a request from a master module, i.e. TensorAlu or TensorGemm.
+The index (idx) is used as an address to find the uop in the uop-scratchpad.
+</p></div></div>
+    </li><li name="vta.core.UopDecode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="UopDecodeextendschisel3.Bundle"></a>
+      <a id="UopDecode:UopDecode"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="UopDecode.html"><span class="name">UopDecode</span></a><span class="result"> extends <span class="extype" name="chisel3.Bundle">Bundle</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@UopDecodeextendschisel3.Bundle" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">UopDecode.</p><div class="fullcomment"><div class="comment cmt"><p>UopDecode.</p><p>Decode micro-ops (uops).
+</p></div></div>
+    </li><li name="vta.core.UopMaster" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="UopMasterextendschisel3.Bundle"></a>
+      <a id="UopMaster:UopMaster"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="UopMaster.html"><span class="name">UopMaster</span></a><span class="result"> extends <span class="extype" name="chisel3.Bundle">Bundle</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@UopMasterextendschisel3.Bundle" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">UopMaster.</p><div class="fullcomment"><div class="comment cmt"><p>UopMaster.</p><p>Uop interface used by a master module, i.e. TensorAlu or TensorGemm,
+to request a micro-op (uop) from the uop-scratchpad. The index (idx) is
+used as an address to find the uop in the uop-scratchpad.
+</p></div></div>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="vta.core.ISAConstants#ALU_OP" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ALU_OP:List[chisel3.UInt]"></a>
+      <a id="ALU_OP:List[UInt]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ALU_OP</span><span class="result">: <span class="extype" name="scala.List">List</span>[<span class="extype" name="chisel3.UInt">UInt</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@ALU_OP:List[chisel3.UInt]" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#ALU_OP_NUM" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ALU_OP_NUM:Int"></a>
+      <a id="ALU_OP_NUM:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ALU_OP_NUM</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@ALU_OP_NUM:Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#C_AIDX_BITS" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="C_AIDX_BITS:Int"></a>
+      <a id="C_AIDX_BITS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">C_AIDX_BITS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@C_AIDX_BITS:Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#C_ALU_DEC_BITS" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="C_ALU_DEC_BITS:Int"></a>
+      <a id="C_ALU_DEC_BITS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">C_ALU_DEC_BITS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@C_ALU_DEC_BITS:Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#C_ALU_IMM_BITS" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="C_ALU_IMM_BITS:Int"></a>
+      <a id="C_ALU_IMM_BITS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">C_ALU_IMM_BITS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@C_ALU_IMM_BITS:Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#C_ALU_OP_BITS" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="C_ALU_OP_BITS:Int"></a>
+      <a id="C_ALU_OP_BITS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">C_ALU_OP_BITS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@C_ALU_OP_BITS:Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#C_IIDX_BITS" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="C_IIDX_BITS:Int"></a>
+      <a id="C_IIDX_BITS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">C_IIDX_BITS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@C_IIDX_BITS:Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#C_ITER_BITS" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="C_ITER_BITS:Int"></a>
+      <a id="C_ITER_BITS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">C_ITER_BITS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@C_ITER_BITS:Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#C_UOP_BGN_BITS" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="C_UOP_BGN_BITS:Int"></a>
+      <a id="C_UOP_BGN_BITS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">C_UOP_BGN_BITS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@C_UOP_BGN_BITS:Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#C_UOP_END_BITS" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="C_UOP_END_BITS:Int"></a>
+      <a id="C_UOP_END_BITS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">C_UOP_END_BITS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@C_UOP_END_BITS:Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#C_WIDX_BITS" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="C_WIDX_BITS:Int"></a>
+      <a id="C_WIDX_BITS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">C_WIDX_BITS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@C_WIDX_BITS:Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.CoreKey" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CoreKey"></a>
+      <a id="CoreKey:CoreKey"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="CoreKey$.html"><span class="name">CoreKey</span></a><span class="result"> extends <a href="../util/config/Field.html" class="extype" name="vta.util.config.Field">Field</a>[<a href="CoreParams.html" class="extype" name="vta.core.CoreParams">CoreParams</a>] with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@CoreKey" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="vta.core.ISAConstants#INST_BITS" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="INST_BITS:Int"></a>
+      <a id="INST_BITS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">INST_BITS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@INST_BITS:Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISA" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ISA"></a>
+      <a id="ISA:ISA"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ISA$.html"><span class="name">ISA</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@ISA" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">ISA.</p><div class="fullcomment"><div class="comment cmt"><p>ISA.</p><p>This is the VTA task ISA</p><p>TODO: Add VXOR to clear accumulator
+TODO: Use ISA object for decoding as well
+TODO: Eventually deprecate ISAConstants
+</p></div></div>
+    </li><li name="vta.core.ISAConstants#M_DEP_BITS" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="M_DEP_BITS:Int"></a>
+      <a id="M_DEP_BITS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">M_DEP_BITS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@M_DEP_BITS:Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#M_DRAM_OFFSET_BITS" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="M_DRAM_OFFSET_BITS:Int"></a>
+      <a id="M_DRAM_OFFSET_BITS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">M_DRAM_OFFSET_BITS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@M_DRAM_OFFSET_BITS:Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#M_ID_A" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="M_ID_A:chisel3.core.UInt"></a>
+      <a id="M_ID_A:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">M_ID_A</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@M_ID_A:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#M_ID_BITS" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="M_ID_BITS:Int"></a>
+      <a id="M_ID_BITS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">M_ID_BITS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@M_ID_BITS:Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#M_ID_I" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="M_ID_I:chisel3.core.UInt"></a>
+      <a id="M_ID_I:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">M_ID_I</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@M_ID_I:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#M_ID_O" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="M_ID_O:chisel3.core.UInt"></a>
+      <a id="M_ID_O:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">M_ID_O</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@M_ID_O:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#M_ID_U" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="M_ID_U:chisel3.core.UInt"></a>
+      <a id="M_ID_U:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">M_ID_U</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@M_ID_U:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#M_ID_W" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="M_ID_W:chisel3.core.UInt"></a>
+      <a id="M_ID_W:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">M_ID_W</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@M_ID_W:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#M_PAD_BITS" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="M_PAD_BITS:Int"></a>
+      <a id="M_PAD_BITS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">M_PAD_BITS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@M_PAD_BITS:Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#M_SIZE_BITS" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="M_SIZE_BITS:Int"></a>
+      <a id="M_SIZE_BITS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">M_SIZE_BITS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@M_SIZE_BITS:Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#M_SRAM_OFFSET_BITS" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="M_SRAM_OFFSET_BITS:Int"></a>
+      <a id="M_SRAM_OFFSET_BITS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">M_SRAM_OFFSET_BITS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@M_SRAM_OFFSET_BITS:Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#M_STRIDE_BITS" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="M_STRIDE_BITS:Int"></a>
+      <a id="M_STRIDE_BITS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">M_STRIDE_BITS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@M_STRIDE_BITS:Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#N" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="N:chisel3.core.Bool"></a>
+      <a id="N:Bool"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">N</span><span class="result">: <span class="extype" name="chisel3.core.Bool">Bool</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@N:chisel3.core.Bool" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#OP_A" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="OP_A:chisel3.core.UInt"></a>
+      <a id="OP_A:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">OP_A</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@OP_A:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#OP_BITS" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="OP_BITS:Int"></a>
+      <a id="OP_BITS:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">OP_BITS</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@OP_BITS:Int" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#OP_F" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="OP_F:chisel3.core.UInt"></a>
+      <a id="OP_F:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">OP_F</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@OP_F:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#OP_G" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="OP_G:chisel3.core.UInt"></a>
+      <a id="OP_G:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">OP_G</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@OP_G:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#OP_L" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="OP_L:chisel3.core.UInt"></a>
+      <a id="OP_L:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">OP_L</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@OP_L:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#OP_S" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="OP_S:chisel3.core.UInt"></a>
+      <a id="OP_S:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">OP_S</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@OP_S:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#OP_X" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="OP_X:chisel3.core.UInt"></a>
+      <a id="OP_X:UInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">OP_X</span><span class="result">: <span class="extype" name="chisel3.core.UInt">UInt</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@OP_X:chisel3.core.UInt" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li><li name="vta.core.ISAConstants#Y" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Y:chisel3.core.Bool"></a>
+      <a id="Y:Bool"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Y</span><span class="result">: <span class="extype" name="chisel3.core.Bool">Bool</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#vta.core.package@Y:chisel3.core.Bool" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="vta.core.ISAConstants">
+              <h3>Inherited from <a href="ISAConstants.html" class="extype" name="vta.core.ISAConstants">ISAConstants</a></h3>
+            </div><div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <span class="extype" name="scala.AnyRef">AnyRef</span></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

@@ -1,0 +1,180 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /media/workspace/tvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2e122/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2e122.dir/build.make CMakeFiles/cmTC_2e122.dir/build
+make[1]: Entering directory '/media/workspace/tvm/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e122.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O2 -Wall -fPIC     -o CMakeFiles/cmTC_2e122.dir/CheckSymbolExists.c.o   -c /media/workspace/tvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2e122
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e122.dir/link.txt --verbose=1
+/usr/bin/cc -O2 -Wall -fPIC      -rdynamic CMakeFiles/cmTC_2e122.dir/CheckSymbolExists.c.o  -o cmTC_2e122 
+CMakeFiles/cmTC_2e122.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text.startup+0x0): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text.startup+0x4): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2e122.dir/build.make:97: recipe for target 'cmTC_2e122' failed
+make[1]: *** [cmTC_2e122] Error 1
+make[1]: Leaving directory '/media/workspace/tvm/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2e122/fast' failed
+make: *** [cmTC_2e122/fast] Error 2
+
+File /media/workspace/tvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /media/workspace/tvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9c4d3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c4d3.dir/build.make CMakeFiles/cmTC_9c4d3.dir/build
+make[1]: Entering directory '/media/workspace/tvm/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c4d3.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O2 -Wall -fPIC     -o CMakeFiles/cmTC_9c4d3.dir/CheckSymbolExists.c.o   -c /media/workspace/tvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9c4d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c4d3.dir/link.txt --verbose=1
+/usr/bin/cc -O2 -Wall -fPIC      -rdynamic CMakeFiles/cmTC_9c4d3.dir/CheckSymbolExists.c.o  -o cmTC_9c4d3 
+CMakeFiles/cmTC_9c4d3.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text.startup+0x0): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text.startup+0x4): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9c4d3.dir/build.make:97: recipe for target 'cmTC_9c4d3' failed
+make[1]: *** [cmTC_9c4d3] Error 1
+make[1]: Leaving directory '/media/workspace/tvm/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9c4d3/fast' failed
+make: *** [cmTC_9c4d3/fast] Error 2
+
+File /media/workspace/tvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /media/workspace/tvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70dee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70dee.dir/build.make CMakeFiles/cmTC_70dee.dir/build
+make[1]: Entering directory '/media/workspace/tvm/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70dee.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O2 -Wall -fPIC     -o CMakeFiles/cmTC_70dee.dir/CheckSymbolExists.c.o   -c /media/workspace/tvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_70dee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70dee.dir/link.txt --verbose=1
+/usr/bin/cc -O2 -Wall -fPIC      -rdynamic CMakeFiles/cmTC_70dee.dir/CheckSymbolExists.c.o  -o cmTC_70dee 
+CMakeFiles/cmTC_70dee.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text.startup+0x0): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text.startup+0x4): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_70dee.dir/build.make:97: recipe for target 'cmTC_70dee' failed
+make[1]: *** [cmTC_70dee] Error 1
+make[1]: Leaving directory '/media/workspace/tvm/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_70dee/fast' failed
+make: *** [cmTC_70dee/fast] Error 2
+
+File /media/workspace/tvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/terasic/workspace/tvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97bf5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97bf5.dir/build.make CMakeFiles/cmTC_97bf5.dir/build
+make[1]: Entering directory '/home/terasic/workspace/tvm/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97bf5.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O2 -Wall -fPIC     -o CMakeFiles/cmTC_97bf5.dir/CheckSymbolExists.c.o   -c /home/terasic/workspace/tvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_97bf5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97bf5.dir/link.txt --verbose=1
+/usr/bin/cc -O2 -Wall -fPIC      -rdynamic CMakeFiles/cmTC_97bf5.dir/CheckSymbolExists.c.o  -o cmTC_97bf5 
+CMakeFiles/cmTC_97bf5.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text.startup+0x0): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text.startup+0x4): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_97bf5.dir/build.make:97: recipe for target 'cmTC_97bf5' failed
+make[1]: *** [cmTC_97bf5] Error 1
+make[1]: Leaving directory '/home/terasic/workspace/tvm/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_97bf5/fast' failed
+make: *** [cmTC_97bf5/fast] Error 2
+
+File /home/terasic/workspace/tvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/terasic/workspace/tvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2f5a2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f5a2.dir/build.make CMakeFiles/cmTC_2f5a2.dir/build
+make[1]: Entering directory '/home/terasic/workspace/tvm/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f5a2.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O2 -Wall -fPIC     -o CMakeFiles/cmTC_2f5a2.dir/CheckSymbolExists.c.o   -c /home/terasic/workspace/tvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2f5a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f5a2.dir/link.txt --verbose=1
+/usr/bin/cc -O2 -Wall -fPIC      -rdynamic CMakeFiles/cmTC_2f5a2.dir/CheckSymbolExists.c.o  -o cmTC_2f5a2 
+CMakeFiles/cmTC_2f5a2.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text.startup+0x0): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text.startup+0x4): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2f5a2.dir/build.make:97: recipe for target 'cmTC_2f5a2' failed
+make[1]: *** [cmTC_2f5a2] Error 1
+make[1]: Leaving directory '/home/terasic/workspace/tvm/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2f5a2/fast' failed
+make: *** [cmTC_2f5a2/fast] Error 2
+
+File /home/terasic/workspace/tvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
