@@ -1,0 +1,14 @@
+# Target labels
+ project_libbacktrace
+# Source files and their labels
+/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/project_libbacktrace
+/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/project_libbacktrace.rule
+/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/project_libbacktrace-complete.rule
+/media/tliu/ECE699/tvm-repo/tvm/build/libbacktrace/src/project_libbacktrace-stamp/project_libbacktrace-install.rule
+/media/tliu/ECE699/tvm-repo/tvm/build/libbacktrace/src/project_libbacktrace-stamp/project_libbacktrace-mkdir.rule
+/media/tliu/ECE699/tvm-repo/tvm/build/libbacktrace/src/project_libbacktrace-stamp/project_libbacktrace-download.rule
+/media/tliu/ECE699/tvm-repo/tvm/build/libbacktrace/src/project_libbacktrace-stamp/project_libbacktrace-update.rule
+/media/tliu/ECE699/tvm-repo/tvm/build/libbacktrace/src/project_libbacktrace-stamp/project_libbacktrace-patch.rule
+/media/tliu/ECE699/tvm-repo/tvm/build/libbacktrace/src/project_libbacktrace-stamp/project_libbacktrace-configure.rule
+/media/tliu/ECE699/tvm-repo/tvm/build/libbacktrace/src/project_libbacktrace-stamp/project_libbacktrace-build.rule
+/media/tliu/ECE699/tvm-repo/tvm/build/libbacktrace/src/project_libbacktrace-stamp/project_libbacktrace-checkout.rule

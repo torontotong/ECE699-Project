@@ -1,0 +1,226 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22ff8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22ff8.dir/build.make CMakeFiles/cmTC_22ff8.dir/build
+make[1]: Entering directory '/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22ff8.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O2 -Wall -fPIC     -o CMakeFiles/cmTC_22ff8.dir/CheckSymbolExists.c.o   -c /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_22ff8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22ff8.dir/link.txt --verbose=1
+/usr/bin/cc -O2 -Wall -fPIC      -rdynamic CMakeFiles/cmTC_22ff8.dir/CheckSymbolExists.c.o  -o cmTC_22ff8 
+CMakeFiles/cmTC_22ff8.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text.startup+0x3): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_22ff8.dir/build.make:97: recipe for target 'cmTC_22ff8' failed
+make[1]: *** [cmTC_22ff8] Error 1
+make[1]: Leaving directory '/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_22ff8/fast' failed
+make: *** [cmTC_22ff8/fast] Error 2
+
+File /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26d4c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26d4c.dir/build.make CMakeFiles/cmTC_26d4c.dir/build
+make[1]: Entering directory '/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26d4c.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O2 -Wall -fPIC     -o CMakeFiles/cmTC_26d4c.dir/CheckSymbolExists.c.o   -c /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_26d4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26d4c.dir/link.txt --verbose=1
+/usr/bin/cc -O2 -Wall -fPIC      -rdynamic CMakeFiles/cmTC_26d4c.dir/CheckSymbolExists.c.o  -o cmTC_26d4c 
+CMakeFiles/cmTC_26d4c.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text.startup+0x3): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_26d4c.dir/build.make:97: recipe for target 'cmTC_26d4c' failed
+make[1]: *** [cmTC_26d4c] Error 1
+make[1]: Leaving directory '/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_26d4c/fast' failed
+make: *** [cmTC_26d4c/fast] Error 2
+
+File /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35625/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35625.dir/build.make CMakeFiles/cmTC_35625.dir/build
+make[1]: Entering directory '/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35625.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O2 -Wall -fPIC     -o CMakeFiles/cmTC_35625.dir/CheckSymbolExists.c.o   -c /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_35625
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35625.dir/link.txt --verbose=1
+/usr/bin/cc -O2 -Wall -fPIC      -rdynamic CMakeFiles/cmTC_35625.dir/CheckSymbolExists.c.o  -o cmTC_35625 
+CMakeFiles/cmTC_35625.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text.startup+0x3): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_35625.dir/build.make:97: recipe for target 'cmTC_35625' failed
+make[1]: *** [cmTC_35625] Error 1
+make[1]: Leaving directory '/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_35625/fast' failed
+make: *** [cmTC_35625/fast] Error 2
+
+File /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test FILE_PREFIX_MAP_SUPPORTED failed with the following output:
+Change Dir: /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d3276/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3276.dir/build.make CMakeFiles/cmTC_d3276.dir/build
+make[1]: Entering directory '/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d3276.dir/src.cxx.o
+/usr/bin/c++    -std=c++14 -faligned-new -O2 -Wall -fPIC  -fpermissive -DFILE_PREFIX_MAP_SUPPORTED   -ffile-prefix-map=..=/media/tliu/ECE699/tvm-repo/tvm -o CMakeFiles/cmTC_d3276.dir/src.cxx.o -c /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-ffile-prefix-map=..=/media/tliu/ECE699/tvm-repo/tvm'
+CMakeFiles/cmTC_d3276.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d3276.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d3276.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d3276/fast' failed
+make: *** [cmTC_d3276/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24007/fast"
+/usr/bin/make -f CMakeFiles/cmTC_24007.dir/build.make CMakeFiles/cmTC_24007.dir/build
+make[1]: Entering directory '/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24007.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O2 -Wall -fPIC     -o CMakeFiles/cmTC_24007.dir/CheckSymbolExists.c.o   -c /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_24007
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24007.dir/link.txt --verbose=1
+/usr/bin/cc -O2 -Wall -fPIC      -rdynamic CMakeFiles/cmTC_24007.dir/CheckSymbolExists.c.o  -o cmTC_24007 
+CMakeFiles/cmTC_24007.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text.startup+0x3): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_24007.dir/build.make:97: recipe for target 'cmTC_24007' failed
+make[1]: *** [cmTC_24007] Error 1
+make[1]: Leaving directory '/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_24007/fast' failed
+make: *** [cmTC_24007/fast] Error 2
+
+File /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test FILE_PREFIX_MAP_SUPPORTED failed with the following output:
+Change Dir: /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e4cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e4cb.dir/build.make CMakeFiles/cmTC_5e4cb.dir/build
+make[1]: Entering directory '/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e4cb.dir/src.cxx.o
+/usr/bin/c++    -std=c++14 -faligned-new -O2 -Wall -fPIC  -DFILE_PREFIX_MAP_SUPPORTED   -ffile-prefix-map=..=/media/tliu/ECE699/tvm-repo/tvm -o CMakeFiles/cmTC_5e4cb.dir/src.cxx.o -c /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-ffile-prefix-map=..=/media/tliu/ECE699/tvm-repo/tvm'
+CMakeFiles/cmTC_5e4cb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5e4cb.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_5e4cb.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5e4cb/fast' failed
+make: *** [cmTC_5e4cb/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a6be4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a6be4.dir/build.make CMakeFiles/cmTC_a6be4.dir/build
+make[1]: Entering directory '/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6be4.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O2 -Wall -fPIC     -o CMakeFiles/cmTC_a6be4.dir/CheckSymbolExists.c.o   -c /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a6be4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6be4.dir/link.txt --verbose=1
+/usr/bin/cc -O2 -Wall -fPIC      -rdynamic CMakeFiles/cmTC_a6be4.dir/CheckSymbolExists.c.o  -o cmTC_a6be4 
+CMakeFiles/cmTC_a6be4.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text.startup+0x3): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a6be4.dir/build.make:97: recipe for target 'cmTC_a6be4' failed
+make[1]: *** [cmTC_a6be4] Error 1
+make[1]: Leaving directory '/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a6be4/fast' failed
+make: *** [cmTC_a6be4/fast] Error 2
+
+File /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test FILE_PREFIX_MAP_SUPPORTED failed with the following output:
+Change Dir: /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fca53/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fca53.dir/build.make CMakeFiles/cmTC_fca53.dir/build
+make[1]: Entering directory '/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fca53.dir/src.cxx.o
+/usr/bin/c++    -std=c++14 -faligned-new -O2 -Wall -fPIC  -fpermissive -DFILE_PREFIX_MAP_SUPPORTED   -ffile-prefix-map=..=/media/tliu/ECE699/tvm-repo/tvm -o CMakeFiles/cmTC_fca53.dir/src.cxx.o -c /media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-ffile-prefix-map=..=/media/tliu/ECE699/tvm-repo/tvm'
+CMakeFiles/cmTC_fca53.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_fca53.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_fca53.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fca53/fast' failed
+make: *** [cmTC_fca53/fast] Error 2
+
+Source file was:
+int main() { return 0; }

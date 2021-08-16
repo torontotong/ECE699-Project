@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++14 -faligned-new -O2 -Wall -fPIC  -fpermissive  -rdynamic CMakeFiles/profiling_test.dir/tests/cpp/profiling_test.cc.o  -o profiling_test -Wl,-rpath,/media/tliu/ECE699/tvm-repo/tvm/build:/usr/local/lib libtvm.so /usr/local/lib/libgtest.so -lpthread -ldl -pthread 

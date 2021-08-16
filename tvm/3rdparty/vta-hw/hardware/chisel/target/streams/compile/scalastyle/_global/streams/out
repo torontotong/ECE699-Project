@@ -1,0 +1,72 @@
+[0m[[0m[0minfo[0m] [0m[0mscalastyle using config /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/scalastyle-config.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mStarting scalastyle[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Compute.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Compute.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Configs.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Configs.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Core.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Core.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Decode.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Decode.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/EventCounters.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/EventCounters.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Fetch.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Fetch.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/ISA.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/ISA.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Load.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Load.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/LoadUop.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/LoadUop.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/package.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/package.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Semaphore.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Semaphore.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Store.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/Store.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/TensorAlu.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/TensorAlu.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/TensorGemm.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/TensorGemm.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/TensorLoad.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/TensorLoad.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/TensorStore.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/TensorStore.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/TensorUtil.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/core/TensorUtil.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/dpi/VTAHostDPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/dpi/VTAHostDPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/dpi/VTAMemDPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/dpi/VTAMemDPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/dpi/VTASimDPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/dpi/VTASimDPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/interface/axi/AXI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/interface/axi/AXI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/Configs.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/Configs.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/IntelShell.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/IntelShell.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/SimShell.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/SimShell.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/VCR.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/VCR.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/VME.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/VME.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/VTAShell.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/VTAShell.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/XilinxShell.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/shell/XilinxShell.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/test/Test.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/test/Test.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/util/Config.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/util/Config.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/util/GenericParameterizedBundle.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/util/GenericParameterizedBundle.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/vta/Configs.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/scala/vta/Configs.scala[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Processed 32 file(s)[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 errors[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 warnings[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 infos[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Finished in 8 ms[0m
+[0m[[0m[32msuccess[0m] [0m[0mcreated output: /media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/target[0m

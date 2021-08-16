@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++14 -faligned-new -O2 -Wall -fPIC  -fpermissive  -rdynamic CMakeFiles/build_module_test.dir/tests/cpp/build_module_test.cc.o  -o build_module_test -Wl,-rpath,/media/tliu/ECE699/tvm-repo/tvm/build:/usr/local/lib libtvm.so /usr/local/lib/libgtest.so -lpthread -ldl -pthread 

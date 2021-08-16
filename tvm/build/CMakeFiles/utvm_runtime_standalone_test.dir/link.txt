@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++14 -faligned-new -O2 -Wall -fPIC  -fpermissive  -rdynamic CMakeFiles/utvm_runtime_standalone_test.dir/tests/cpp/utvm_runtime_standalone_test.cc.o  -o utvm_runtime_standalone_test -Wl,-rpath,/media/tliu/ECE699/tvm-repo/tvm/build:/usr/local/lib libtvm.so /usr/local/lib/libgtest.so -lpthread -ldl -pthread 

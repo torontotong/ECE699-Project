@@ -1,0 +1,1 @@
+cmd='/media/tliu/ECE699/tvm-repo/tvm/cmake/libs/../../3rdparty/libbacktrace/configure;--prefix=/media/tliu/ECE699/tvm-repo/tvm/build/libbacktrace;--with-pic'

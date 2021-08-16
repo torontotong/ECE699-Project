@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++14 -faligned-new -O2 -Wall -fPIC  -fpermissive  -rdynamic CMakeFiles/object_protocol_test.dir/tests/cpp/object_protocol_test.cc.o  -o object_protocol_test -Wl,-rpath,/media/tliu/ECE699/tvm-repo/tvm/build:/usr/local/lib libtvm.so /usr/local/lib/libgtest.so -lpthread -ldl -pthread 

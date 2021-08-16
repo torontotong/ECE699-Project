@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/project_libbacktrace"
+		},
+		{
+			"file" : "/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/project_libbacktrace.rule"
+		},
+		{
+			"file" : "/media/tliu/ECE699/tvm-repo/tvm/build/CMakeFiles/project_libbacktrace-complete.rule"
+		},
+		{
+			"file" : "/media/tliu/ECE699/tvm-repo/tvm/build/libbacktrace/src/project_libbacktrace-stamp/project_libbacktrace-install.rule"
+		},
+		{
+			"file" : "/media/tliu/ECE699/tvm-repo/tvm/build/libbacktrace/src/project_libbacktrace-stamp/project_libbacktrace-mkdir.rule"
+		},
+		{
+			"file" : "/media/tliu/ECE699/tvm-repo/tvm/build/libbacktrace/src/project_libbacktrace-stamp/project_libbacktrace-download.rule"
+		},
+		{
+			"file" : "/media/tliu/ECE699/tvm-repo/tvm/build/libbacktrace/src/project_libbacktrace-stamp/project_libbacktrace-update.rule"
+		},
+		{
+			"file" : "/media/tliu/ECE699/tvm-repo/tvm/build/libbacktrace/src/project_libbacktrace-stamp/project_libbacktrace-patch.rule"
+		},
+		{
+			"file" : "/media/tliu/ECE699/tvm-repo/tvm/build/libbacktrace/src/project_libbacktrace-stamp/project_libbacktrace-configure.rule"
+		},
+		{
+			"file" : "/media/tliu/ECE699/tvm-repo/tvm/build/libbacktrace/src/project_libbacktrace-stamp/project_libbacktrace-build.rule"
+		},
+		{
+			"file" : "/media/tliu/ECE699/tvm-repo/tvm/build/libbacktrace/src/project_libbacktrace-stamp/project_libbacktrace-checkout.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"project_libbacktrace"
+		],
+		"name" : "project_libbacktrace"
+	}
+}

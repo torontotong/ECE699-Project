@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/resources/verilog/VTAHostDPI.v,/media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/target/scala-2.11/classes/verilog/VTAHostDPI.v)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/resources/verilog/VTAMemDPI.v,/media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/target/scala-2.11/classes/verilog/VTAMemDPI.v)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/src/main/resources/verilog/VTASimDPI.v,/media/tliu/ECE699/tvm-repo/tvm/3rdparty/vta-hw/hardware/chisel/target/scala-2.11/classes/verilog/VTASimDPI.v)[0m
