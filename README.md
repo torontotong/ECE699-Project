@@ -14,5 +14,5 @@
 7. On PC , run tutorial app by running command "python vta/tutorials/vta_get_started.py"
 8. Wait until application done
 9. On De10pro run command "sudo rmmod cma", release allocated contigous memory
-10. When repeat 6 to 9 by only changing PC side application if needed.  
+10. Repeat 6 to 9 by only changing PC side application if needed.  
 
