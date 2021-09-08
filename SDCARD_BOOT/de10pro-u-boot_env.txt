@@ -1,0 +1,34 @@
+baudrate=115200
+bootcmd=run fpga_load_f2sdram; run fpga_config;run fatscript; run mmcload;run linux_qspi_enable;rsu dtb; run mmcboot
+bootdelay=5
+bootfile=Image
+bootimagesize=0x01400000
+fatscript=if fatload mmc 0:1 ${scriptaddr} ${scriptfile};then source ${scriptaddr}; fi
+fdt_addr=8000000
+fdtcontroladdr=7fa3ebd8
+fdtimage=socfpga_stratix10_de10_pro.dtb
+fdtimagesize=0x00010000
+fileaddr=100000
+filesize=479000
+fpga_config=fpga load 0 100000 ${filesize}
+fpga_load=fatload mmc 0:1 100000 DE10_Pro_GHRD_F2SDRAM_hps.core.rbf
+fpga_load_f2h=fatload mmc 0:1 100000 DE10_Pro_GHRD_F2H_hps.core.rbf
+fpga_load_f2sdram=fatload mmc 0:1 100000 DE10_Pro_GHRD_F2SDRAM_hps.core.rbf
+linux_qspi_enable=if sf probe; then echo Enabling QSPI at Linux DTB...;fdt addr ${fdt_addr}; fdt resize;fdt set /soc/spi@ff8d2000 status okay;if fdt set /soi
+loadaddr=0x2000000
+mmcboot=setenv bootargs earlycon panic=-1 root=${mmcroot} rw rootwait;booti ${loadaddr} - ${fdt_addr}
+mmcload=mmc rescan;load mmc 0:1 ${loadaddr} ${bootfile};load mmc 0:1 ${fdt_addr} ${fdtimage}
+mmcroot=/dev/mmcblk0p2
+qspi_clock=<0x17d78400>
+qspiboot=setenv bootargs earlycon root=/dev/mtdblock1 rw rootfstype=jffs2 rootwait;booti ${loadaddr} - ${fdt_addr}
+qspibootimageaddr=0x020B0000
+qspifdtaddr=0x02090000
+qspiload=sf read ${loadaddr} ${qspibootimageaddr} ${bootimagesize};sf read ${fdt_addr} ${qspifdtaddr} ${fdtimagesize}
+rsu_log_level=7
+scriptaddr=0x02100000
+scriptfile=u-boot.scr
+socfpga_legacy_reset_compat=1
+stderr=serial0@ffc02000
+stdin=serial0@ffc02000
+stdout=serial0@ffc02000
+
