@@ -1,4 +1,5 @@
 # University of Waterloo Spring 2021 ECE699 - Master of Engineering Project
+## Bring up An AI accelarator on Intel DE10-Pro FPGA Development Board
 1. In Sd card boot partition , make sure all files in SDCARD_BOOT folder are copied to boot partition.
 2. And, the uboot enviroment should match contents in de10pro-u-boot_env.txt. This will make sure the De10pro linux will program fpga during bootup, and the fpga modules are setup with proper value.
 3. After Linux system booted up on de10pro, login to the linux wtih Username=terasic, Password=123
